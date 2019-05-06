@@ -1,0 +1,10 @@
+语法为：
+   while 条件:
+       循环执行的语句
+同if一样，注意冒号，注意缩进。
+今天的栗子：
+   a = 1            #先a设为1
+   while a != 0:  #a不等于0就一直做
+       print "please input"
+       a = int(input())
+   print "over"
