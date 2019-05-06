@@ -1,3 +1,9 @@
 for循环的本质是对一个序列中的元素进行递归。什么是序列，以后再说。先记住这个最简单的形式：
 for i in range(a, b)
 从a循环至b-1
+
+
+嵌套在一起的循环：
+for i in range(0, 5):
+   for j in range(0, 5):
+       print i, j
